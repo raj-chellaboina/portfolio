@@ -4,7 +4,7 @@ export const personalData = {
   email: 'chellaboinayesuraju@gmail.com',
   phone: '+91 9392234389',
   location: 'Tadepalligudem, India',
-  resumeUrl: '/Chellaboina_Yesu_Raju_Resume.pdf', // Assumes resume is in /public folder
+  resumeUrl: 'https://drive.google.com/file/d/1JEBhVDWqhliLPTUwBdzK8rLUZCXUNZMp/view?usp=drive_link', // Assumes resume is in /public folder
   about: 'I am a dedicated B.Tech student with a specialization in AI & ML, possessing a strong foundation in both backend and frontend development. My passion lies in solving complex problems and building robust, user-friendly applications from the ground up. I am eager to apply my skills to real-world challenges and contribute to innovative projects.',
   socials: {
     github: 'https://github.com/raj-chellaboina',

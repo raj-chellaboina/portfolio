@@ -50,7 +50,7 @@ const Header = () => {
         </nav>
         <div className="hidden md:flex items-center gap-2">
            <Button variant="outline" size="sm" asChild>
-            <a href={personalData.resumeUrl} download>Download CV</a>
+            <a href={personalData.resumeUrl} target="_blank" rel="noopener noreferrer">Download CV</a>
           </Button>
         </div>
         <div className="md:hidden">
@@ -65,7 +65,7 @@ const Header = () => {
               <nav className="flex flex-col gap-6 mt-8">
                 {navItems}
                 <Button variant="outline" asChild>
-                  <a href={personalData.resumeUrl} download>Download CV</a>
+                  <a href={personalData.resumeUrl} target="_blank" rel="noopener noreferrer">Download CV</a>
                 </Button>
               </nav>
             </SheetContent>
