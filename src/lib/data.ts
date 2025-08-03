@@ -35,14 +35,14 @@ export const projects = [
     description: 'A responsive Netflix clone that integrates with the TMDB API for movie data and allows users to watch trailers directly. Features include Firebase authentication and a personal watchlist.',
     stack: ['ReactJS', 'TMDB API', 'Firebase Auth', 'Responsive Design'],
     repoUrl: 'https://github.com/raj-chellaboina/flixtrailer',
-    liveUrl: 'https://flixtrailer.netlify.app/',
+    liveUrl: 'https://raj-chellaboina.github.io/Net-flix-clone/',
   },
   {
     title: 'Crypto Tracker Web App',
     description: 'A web application for tracking live cryptocurrency prices using the CoinGecko API. Features include interactive candlestick charts powered by Google Charts and a responsive, component-driven architecture.',
     stack: ['ReactJS', 'CoinGecko API', 'Google Charts', 'Component-driven'],
     repoUrl: 'https://github.com/raj-chellaboina/crypto-tracker',
-    liveUrl: '',
+    liveUrl: 'https://raj-chellaboina.github.io/crypto/',
   },
 ];
 
