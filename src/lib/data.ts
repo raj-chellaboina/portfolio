@@ -79,7 +79,7 @@ export const skills = {
 export const achievements = [
   {
     icon: 'Code',
-    title: '400+ Problems Solved',
+    title: '900+ Problems Solved',
     description: 'Across LeetCode and GeeksforGeeks, honing my problem-solving and algorithmic skills.',
   },
   {
