@@ -4,11 +4,11 @@ export const personalData = {
   email: 'chellaboinayesuraju@gmail.com',
   phone: '+91 9392234389',
   location: 'Tadepalligudem, India',
-  resumeUrl: 'https://drive.google.com/file/d/1JEBhVDWqhliLPTUwBdzK8rLUZCXUNZMp/view?usp=drive_link', // Assumes resume is in /public folder
+  resumeUrl: 'https://drive.google.com/file/d/1bq0tQ2siLsUxnhBPVH5qVe6HPzJt_sal/view?usp=sharing', // Assumes resume is in /public folder
   about: 'I am a dedicated B.Tech student with a specialization in AI & ML, possessing a strong foundation in both backend and frontend development. My passion lies in solving complex problems and building robust, user-friendly applications from the ground up. I am eager to apply my skills to real-world challenges and contribute to innovative projects.',
   socials: {
     github: 'https://github.com/raj-chellaboina',
-    linkedin: 'https://www.linkedin.com/in/chellaboinayesuraju/', // Replace with actual LinkedIn profile
+    linkedin: 'https://www.linkedin.com/in/raj-chellaboina/', // Replace with actual LinkedIn profile
     leetcode: 'https://leetcode.com/u/RajChellaboina/',
     gfg: 'https://www.geeksforgeeks.org/user/chellaboin15yx/',
   },
@@ -44,6 +44,13 @@ export const projects = [
     repoUrl: 'https://github.com/raj-chellaboina/crypto-tracker',
     liveUrl: 'https://raj-chellaboina.github.io/crypto/',
   },
+  {
+    title: 'Movie Recommendation System',
+    description: 'A machine learning project that recommends movies based on user preferences using vectorization and similarity matrix techniques. Built with Streamlit for the UI and utilizes scikit-learn, pandas, and numpy for ML processing.',
+    stack: ['Python', 'Streamlit', 'scikit-learn', 'pandas', 'numpy', 'Vectorization', 'Similarity Matrix'],
+    repoUrl: 'https://github.com/raj-chellaboina/movie-recommender-system', // Update with your actual repo URL
+    liveUrl: '', // Add live URL if deployed
+  },
 ];
 
 export const skills = {
@@ -58,10 +65,19 @@ export const skills = {
     { name: 'Java', icon: 'Java' },
     { name: 'Spring Boot', icon: 'Spring Boot' },
     { name: 'REST APIs', icon: 'Server' },
+    { name: 'Node.js', icon: 'Spring Boot' },
+    { name: 'Flutter', icon: 'Spring Boot' },
   ],
   Databases: [
     { name: 'PostgreSQL', icon: 'PostgreSQL' },
     { name: 'Firebase', icon: 'Firebase' },
+    {name:'SquareLibrary',icon: 'Code' },
+  ],
+  MachineLearning: [
+    { name: 'pandas', icon: 'Code' },
+    { name: 'numpy', icon: 'Code' },
+    { name: 'scikit-learn', icon: 'Code' },
+    { name: 'Vectorization', icon: 'Code' }
   ],
   Tools: [
     { name: 'Git', icon: 'GitBranch' },
@@ -102,13 +118,28 @@ export const achievements = [
     title: 'Tech Survey Lead',
     description: 'Led a team in a technology survey for organic farming, covering over 200 households.',
   },
+  {
+    icon: 'Star',
+    title: 'Secured Highest Marks in 10th Standard',
+    description: 'Achieved the highest marks in my school in the 10th standard board exams.',
+  },
+  {
+    icon: 'Trophy',
+    title: 'Selected for State Level Table Tennis Team',
+    description: 'Represented my school at the state level in table tennis.',
+  },
+  {
+    icon: 'Award',
+    title: 'Academic Excellence Award (3rd Semester)',
+    description: 'Received the Academic Excellence Award for outstanding performance in the 3rd semester.',
+  },
 ];
 
 export const education = [
   {
     degree: 'B.Tech in AI & Machine Learning',
     institution: 'Sri Vasavi Engineering College',
-    duration: '2021 - 2025',
+    duration: '2022 - present',
     result: 'CGPA: 8.94',
   },
   {

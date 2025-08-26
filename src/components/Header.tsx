@@ -43,7 +43,7 @@ const Header = () => {
     )}>
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="font-headline text-2xl font-bold text-primary">
-          {personalData.name.split(' ')[1]}
+          
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm">
           {navItems}
